@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loginPage</title>
+    <link rel="stylesheet" href="css/login_css.css">
+
+</head>
+<body>
+<form action="/myweb_servlet/LoginSessionServlet" onsubmit="return formValid.checkForm()" method="get">
+<div class="container">
+    <div class="login_word">
+        <h1>欢迎登陆</h1>
+    </div>
+    <div class="input">
+        <p class="zh_info" id="user_info">账号：</p>
+        <input type="text" name="username" placeholder="请输入用户名/账号" id="input1" onblur="formValid.checkUserName()">
+        <p class="psd_info" id="psd_info">密码：</p>
+        <input type="password" name="password" placeholder="请输入用户密码" id="psd1" onblur="formValid.checkPassword()">
+        <p class="yzm_info" id="yzm_info">验证码：</p>
+        <input type="text" name="check_code" placeholder="&nbsp;&nbsp;&nbsp;请输入验证码" name="check_code" id="cc" >
+        <img src="/myweb_servlet/CheckServlet" alt="验证码加载失败">
+
+    </div>
+    <div class="button">
+        <input type="submit" value="登陆" id="login_button">
+    </div>
+    <div class="other_login">
+        <a href="#" class="other_login_1">新用户注册</a>
+        <a href="#" class="other_login_2">忘记密码</a>
+    </div>
+    <div class="pro_info">
+        <hr>
+    </div>
+    <div class="img">
+        <a href="#" class="img1"><img src="img/img_2.png" alt="无法加载"></a>
+        <a href="#" class="img2"><img src="img/img_3.png" alt="无法加载"></a>
+        <a href="#" class="img3"><img src="img/img_4.png" alt="无法加载"></a>
+    </div>
+</div>
+</form>
+<script type="text/javascript" src="js/login.js"></script>
+
+</body>
+</html>
+

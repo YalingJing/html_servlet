@@ -1,0 +1,156 @@
+/*
+  name: 敬亚霖
+  id: 201931061165
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+body {
+    background: url("../img/img1.jpg");
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 470px;
+    height: auto;
+    border: 1px #B2B2B2 solid;
+    margin: 80px auto;
+    background-color: white;
+    border-radius: 13px
+}
+
+.login_word h1{
+    padding: 20px 90px;
+    color: #111111;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+}
+
+.input input {
+    height: 38px;
+    width: 290px;
+}
+
+.input .zh_info{
+    width: 74px;
+    font-weight: 300;
+    color: #111111;
+    margin-left: 75px;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.input .psd_info {
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    width: 74px;
+    margin-left: 75px;
+}
+
+.input .yzm_info {
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    width: 74px;
+    margin-left: 82px;
+}
+
+.input #cc {
+    width: 153px;
+    padding-left: 54px;
+}
+
+.button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button #login_button {
+    width: 294px;
+    height: 40px;
+    background: #ffcacf;
+    border: 1px #ffcacf solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button button:hover{
+    background: #ffebe1;
+}
+
+.other_login {
+    margin-top: 20px;
+}
+
+.other_login .other_login_1 {
+    text-decoration: none;
+    color: #999999;
+    width: 102px;
+    margin-left: 87px;
+}
+
+.other_login .other_login_2 {
+    text-decoration: none;
+    color: #999999;
+    width: 102px;
+    margin-left: 145px;
+}
+
+.other_login a:hover{
+    color: #ff97a1
+}
+
+.pro_info  {
+    margin-top: 20px;
+    width: 290px;
+    margin-left: 87px;
+    color: #CCCCCC;
+}
+
+.img img {
+    width: 20px;
+    height: 20px;
+}
+
+.img {
+    margin-top: 20px;
+}
+
+.img .img1 {
+    margin-left: 130px;
+}
+
+.img .img2 {
+    margin-left: 20px;
+}
+
+.img .img3 {
+    margin-left: 13px;
+}
+
+.img .img1 img {
+    width: 55px;
+    height: 55px;
+}
+
+.img .img2 img {
+    width: 55px;
+    height: 55px;
+}
+
+.img .img3 img {
+    width: 55px;
+    height: 55px;
+}
